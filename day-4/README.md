@@ -44,7 +44,7 @@ Routing
 Gateways and endpoints
 
     A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
-    NAT gateway is used for masking of ip address
+    NAT gateway is used for masking of ip address without exposing actual Ip address of the application server
 Peering connections
 
     Use a VPC peering connection to route traffic between the resources in two VPCs.
